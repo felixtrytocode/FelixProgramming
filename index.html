@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <div class="counter" id="home">0</div> <br>
+                <img src="img1.png" onclick="add1()">
+                <img src="img2.png" onclick="add2()">
+                <img src="img3.png" onclick="add3()"><br>
+                <button onclick="minus1()"><</button>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <div class="counter" id="guest">0</div> <br>
+                <img src="imga.png" onclick="adda()">
+                <img src="imgb.png" onclick="addb()">
+                <img src="imgc.png" onclick="addc()"><br>
+                <button onclick="minusd()"><</button>
+            </div>
+        </div>
+
+        <div class="total-score">
+            <button onclick="firstQuater()">first quater</button>
+            <span class="score" id="firstScore">00:00</span><br>
+
+
+            <button onclick="secondQuater()">second quater</button>
+            <span class="score" id="secondScore">00:00</span> <br>
+
+
+            <button onclick="thirdQuater()">third quater</button>
+            <span class="score" id="thirdScore">00:00</span> <br>
+
+
+            
+          
+
+            <button onclick="reset()">RESET</button>
+
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
